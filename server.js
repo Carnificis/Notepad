@@ -1,5 +1,5 @@
 const express = require('express');
-const PORT = 3001; // Heroku port
+const PORT = process.env.PORT || 3001; // Heroku port
 const app = express();
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
