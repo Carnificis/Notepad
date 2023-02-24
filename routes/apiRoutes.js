@@ -1,5 +1,6 @@
 const app = require('express').Router();
-let db = reqire("../db/db.json");
+let db = require("../db/db.json");
+const fs = require("fs");
 //Read
 app.get("/notes", (req, res) => {
     db = JSON.parse(fs.readFileSync("./db/db.json")) || [];
