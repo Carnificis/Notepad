@@ -1,0 +1,26 @@
+{
+  "name": "notepad",
+  "version": "1.0.0",
+  "description": "Express app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carnificis/Notepad.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express"
+  ],
+  "author": "Jack Kelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carnificis/Notepad/issues"
+  },
+  "homepage": "https://github.com/Carnificis/Notepad#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
