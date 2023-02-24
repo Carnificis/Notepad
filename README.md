@@ -1,1 +1,6 @@
 # Notepad
+
+## Author
+Jack Kelly
+
+### 
